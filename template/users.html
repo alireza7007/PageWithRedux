@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redux</title>
+    <link rel="stylesheet" href="./primitiveui.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav>
+        <section>
+            <h1>Redux Essentials Example</h1>
+            <div class="navContent">
+                <div class="navLinks">
+                    <a>Posts</a>
+                    <a>Users</a>
+                    <a>Notifications 5</a>
+                </div>
+                <button class="button">
+                    Refresh Notifications
+                </button>
+            </div>
+        </section>
+    </nav>
+    <div class="App">
+        <section>
+            <h2>Users</h2>
+            <ul>
+                <li><a href="/users/cVirFz5oVb-CA37EApdul" dideo-checked="true">Candace Braun</a></li>
+                <li><a href="/users/2ki_W9Uf9jYri0vswEfN2" dideo-checked="true">Emiliano Prohaska I</a></li>
+                <li><a href="/users/yixgAD2npsFRh8cNoR8-w" dideo-checked="true">Willard Senger</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="App">
+        <section>
+            <h2>Candace Braun</h2>
+            <ul>
+                <li><a href="/posts/Sq0OZJyMWGrjkJAX7BzU-" dideo-checked="true">Those pandas are nothing more than
+                        sheeps?</a></li>
+                <li><a href="/posts/s1n1EaGGX8YKIm9LN_GB5" dideo-checked="true">The impartial shark reveals itself as an
+                        amused frog to those who look.</a></li>
+                <li><a href="/posts/3VWHc4H5lTvB9xAU0iDZ9" dideo-checked="true">The zeitgeist contends that some posit
+                        the witty scorpion to be less than successful?</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="App">
+        <section>
+            <article class="post">
+                <h2>Those pandas are nothing more than sheeps?</h2>
+                <div><span>by Candace Braun</span><span title="2021-02-06T21:44:01.564Z">&nbsp; <i>32 minutes
+                            ago</i></span></div>
+                <p class="post-content">The zeitgeist contends that one cannot separate cranberries from gentle deers!
+                    The literature would have us believe that an energetic apple is not but a scorpion. After a long day
+                    at school and work, the literature would have us believe that a succinct melon is not but a camel.
+                    The zeitgeist contends that a mature sheep without grapefruits is truly a blackberry of
+                    self-disciplined ants! The exclusive camel reveals itself as a silly squirrel to those who look. A
+                    harmonious scorpion without squirrels is truly a kangaroo of sincere oranges. The pioneering
+                    squirrel reveals itself as an affectionate tiger to those who look! The confident cherry reveals
+                    itself as a unassuming blueberry to those who look.</p>
+                <div><button type="button" class="muted-button reaction-button">👍 0</button><button type="button"
+                        class="muted-button reaction-button">🎉 0</button><button type="button"
+                        class="muted-button reaction-button">❤️ 0</button><button type="button"
+                        class="muted-button reaction-button">🚀 0</button><button type="button"
+                        class="muted-button reaction-button">👀 0</button></div><a class="button"
+                    href="/editPost/Sq0OZJyMWGrjkJAX7BzU-" dideo-checked="true">Edit Post</a>
+            </article>
+        </section>
+    </div>
+
+    <div class="App">
+        <section>
+            <h2>Edit Post</h2>
+            <form><label for="postTitle">Post Title:</label><input type="text" id="postTitle" name="postTitle"
+                    placeholder="What's on your mind?" value="Those pandas are nothing more than sheeps?"><label
+                    for="postContent">Content:</label><textarea id="postContent"
+                    name="postContent">The zeitgeist contends that one cannot separate cranberries from gentle deers! The literature would have us believe that an energetic apple is not but a scorpion. After a long day at school and work, the literature would have us believe that a succinct melon is not but a camel. The zeitgeist contends that a mature sheep without grapefruits is truly a blackberry of self-disciplined ants! The exclusive camel reveals itself as a silly squirrel to those who look. A harmonious scorpion without squirrels is truly a kangaroo of sincere oranges. The pioneering squirrel reveals itself as an affectionate tiger to those who look! The confident cherry reveals itself as a unassuming blueberry to those who look.</textarea>
+            </form><button type="button">Save Post</button>
+        </section>
+    </div>
+
+</body>
+
+</html>

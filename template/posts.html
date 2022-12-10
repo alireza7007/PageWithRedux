@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redux</title>
+    <link rel="stylesheet" href="./primitiveui.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav>
+        <section>
+            <h1>Redux Essentials Example</h1>
+            <div class="navContent">
+                <div class="navLinks">
+                    <a href="/" dideo-checked="true">Posts</a>
+                    <a href="/users" dideo-checked="true">Users</a>
+                    <a href="/notifications" dideo-checked="true">Notifications <span class="badge">5</span></a>
+                </div><button class="button">Refresh Notifications</button>
+            </div>
+        </section>
+    </nav>
+    <div class="App">
+
+        <section>
+            <h2>Add a New Post</h2>
+            <form>
+                <label for="postTitle">Post Title:</label>
+                <input type="text" id="postTitle" name="postTitle" placeholder="What's on your mind?" />
+                <label for="postAuthor">Author:</label>
+                <select id="postAuthor">
+                    <option value=""></option>
+                </select>
+                <label for="postContent">Content:</label>
+                <textarea id="postContent" name="postContent"></textarea>
+                <button type="button">
+                    Save Post
+                </button>
+            </form>
+        </section>
+
+        <section class="posts-list">
+            <h2>Posts</h2>
+            <article class="post-excerpt">
+                <h3>title</h3>
+                <div>
+                    <span>by name</span>
+                    <span title="2021-02-06T21:36:04.822Z">&nbsp; <i>28 minutes ago</i></span>
+                </div>
+                <p class="post-content">The zeitgeist contends that one cannot separate cranberries from gentle deers!
+                    The literature would </p>
+
+                <div><button type="button" class="muted-button reaction-button">👍 0</button><button type="button"
+                        class="muted-button reaction-button">🎉 0</button><button type="button"
+                        class="muted-button reaction-button">❤️ 0</button><button type="button"
+                        class="muted-button reaction-button">🚀 0</button><button type="button"
+                        class="muted-button reaction-button">👀 0</button></div>
+                <a class="button muted-button" href="/posts/oE1ZviL86I8TznPnEPAy0" dideo-checked="true">View Post</a>
+            </article>
+            <article class="post-excerpt">
+                <h3>title</h3>
+                <div>
+                    <span>by name</span>
+                    <span title="2021-02-06T21:36:04.822Z">&nbsp; <i>28 minutes ago</i></span>
+                </div>
+                <p class="post-content">The zeitgeist contends that one cannot separate cranberries from gentle deers!
+                    The literature would </p>
+
+                <div><button type="button" class="muted-button reaction-button">👍 0</button><button type="button"
+                        class="muted-button reaction-button">🎉 0</button><button type="button"
+                        class="muted-button reaction-button">❤️ 0</button><button type="button"
+                        class="muted-button reaction-button">🚀 0</button><button type="button"
+                        class="muted-button reaction-button">👀 0</button></div>
+                <a class="button muted-button" href="/posts/oE1ZviL86I8TznPnEPAy0" dideo-checked="true">View Post</a>
+            </article>
+            <article class="post-excerpt">
+                <h3>title</h3>
+                <div>
+                    <span>by name</span>
+                    <span title="2021-02-06T21:36:04.822Z">&nbsp; <i>28 minutes ago</i></span>
+                </div>
+                <p class="post-content">The zeitgeist contends that one cannot separate cranberries from gentle deers!
+                    The literature would </p>
+
+                <div><button type="button" class="muted-button reaction-button">👍 0</button><button type="button"
+                        class="muted-button reaction-button">🎉 0</button><button type="button"
+                        class="muted-button reaction-button">❤️ 0</button><button type="button"
+                        class="muted-button reaction-button">🚀 0</button><button type="button"
+                        class="muted-button reaction-button">👀 0</button></div>
+                <a class="button muted-button" href="/posts/oE1ZviL86I8TznPnEPAy0" dideo-checked="true">View Post</a>
+            </article>
+        </section>
+    </div>
+
+</body>
+
+</html>
